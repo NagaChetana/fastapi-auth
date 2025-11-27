@@ -150,7 +150,7 @@ def login_user(user: LoginRequest, db: Session = Depends(get_db)):
     }
 
 
-# ---------- REFRESH ----------
+# ---------- REFRESH -----------
 @app.post("/refresh")
 def refresh_token(data: RefreshRequest):
 
