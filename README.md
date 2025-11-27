@@ -4,7 +4,7 @@ Install required packages:
 pip install fastapi uvicorn sqlalchemy passlib[bcrypt] pydantic
 
 Run the FastAPI server (inside folder where main.py exists):
-uvicorn main:app --reload
+python -m uvicorn main:app --reload
 
 Server runs on PORT: 8000
 
